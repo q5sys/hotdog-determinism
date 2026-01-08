@@ -13,7 +13,7 @@ while true; do
         --spatial-upsampler-path /zstor/ai/ltx2/LTX-2/ltx-2-spatial-upscaler-x2-1.0.safetensors \
         --gemma-root /zstor/ai/ltx2/ComfyUI/models/text_encoders/gemma_3_12B/ \
         --prompt "a hotdog walking down the street" \
-        --output-path "hotdog-gpu0-${iteration}.mp4" \
+        --output-path "hotdog-gpu0-1.mp4" \
         --height 320 \
         --width 640 \
         --frame-rate 24 \
@@ -29,7 +29,7 @@ while true; do
         --spatial-upsampler-path /zstor/ai/ltx2/LTX-2/ltx-2-spatial-upscaler-x2-1.0.safetensors \
         --gemma-root /zstor/ai/ltx2/ComfyUI/models/text_encoders/gemma_3_12B/ \
         --prompt "a hotdog walking down the street" \
-        --output-path "hotdog-gpu0-${iteration}-2.mp4" \
+        --output-path "hotdog-gpu0-2.mp4" \
         --height 320 \
         --width 640 \
         --frame-rate 24 \
